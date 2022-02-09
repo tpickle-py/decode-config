@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 METADATA = {
@@ -137,7 +137,7 @@ if sys.version_info[0] < 3:
 import platform
 try:
     from datetime import datetime
-    import paho.mqtt.client as mqtt
+    from paho.mqtt import client as mqtt
     import base64
     import time
     import copy
